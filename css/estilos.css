@@ -10,13 +10,11 @@ body {
 }
 
 header #nav {
-  position: fixed;
   width: 100%;
   border-top: 0%;
   padding-top: 0%;
   margin-top: 0%;
   background-color: #f8f9fa;;
-  z-index: 100;
 }
 
 nav #logo {
@@ -42,7 +40,6 @@ nav ul li a {
 }
 
 #titulo {
-  padding-top: 6.8%;
   text-align: center;
   font-size: 5.375em;
   font-family: 'Dongle', sans-serif;
@@ -357,7 +354,6 @@ p {
 
   {body
     #titulo {
-      padding-top: 30%;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -523,7 +519,6 @@ p {
 
     #titulo {
       font-size: 4.375em;
-      padding-top: 3%;
     }
 
     #carousel {
@@ -557,7 +552,6 @@ p {
 
     #titulo {
       font-size: 4.375em;
-      padding-top: 3%;
     }
 
     #carousel {
@@ -578,7 +572,6 @@ p {
   {body
     #titulo {
       font-size: 5.1875em;
-      padding-top: 13%;
     }
     #carousel .carousel-inner .carousel-item img {
       height: 430px;
@@ -646,9 +639,6 @@ p {
   @media (min-width:1024px) and (max-width:1366px)
 
   {body
-    #titulo {
-      padding-top: 10%;
-    }
 
     #carousel {
       display: flex;
@@ -707,15 +697,6 @@ p {
     }
   }
 
-  /*----SURFACE DUO---*/
-  @media (min-width:540px) and (max-width:720px)
-
-  {body
-    #titulo {
-      padding-top: 17%;
-    }
-  }
-
   /*----GALAXY FOLD---*/
   @media (min-width:280px) and (max-width:653px)
 
@@ -731,14 +712,6 @@ p {
       padding-left: 0px;
       padding-right: 0px;
       padding-bottom: 0px;
-    }
-
-    #titulo {
-      padding-top: 50%;
-    }
-
-    #titulo h1 {
-      padding-top: 50%;
     }
 
     #carousel .carousel-inner .carousel-item img {
@@ -789,28 +762,12 @@ p {
       flex-wrap: wrap;
       font-family: 'Montserrat', sans-serif;
     }
-
-    #titulo {
-      padding-top: 50%;
-    }
-
-    #titulo h1 {
-      padding-top: 50%;
-    }
   }
 
   /*----NEST HUB MAX---*/
   @media (min-width:1280px) and (max-width:800px)
 
   {body
-    #titulo {
-      padding-top: 8%;
-    }
-
-    #titulo h1 {
-      padding-top: 8%;
-    }
-
     .videomapa #video iframe {
       width: 320px;
       height: 270px;
@@ -832,13 +789,5 @@ p {
       padding-left: 0px;
       padding-right: 0px;
       padding-bottom: 0px;
-    }
-    
-    #titulo {
-      padding-top: 8%;
-    }
-
-    #titulo h1 {
-      padding-top: 8%;
     }
     }
